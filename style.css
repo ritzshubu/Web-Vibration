@@ -22,9 +22,3 @@ html, body {
     font-size: 22px;
     font-weight: bold;
   }
-  
-  .colorfull-btn:nth-child(1) { background-color: #EED5C2 }
-  .colorfull-btn:nth-child(2) { background-color: #EDA4BD }
-  .colorfull-btn:nth-child(3) { background-color: #EB7BC0 }
-  .colorfull-btn:nth-child(4) { background-color: #C46BAE }
-  .colorfull-btn:nth-child(5) { background-color: #7C606B }
