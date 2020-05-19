@@ -1,11 +1,21 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<body>
-    <h1> Vibration </h1>
-    <button class ="button" oneclick="Vibrated()"> Vibrate </button>
-    <script>
-        function Vibrated() {
-            navigator.vibrate([500,100,500,100]);
-        }
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
+<body>
+        
+    <button class ="button" oneclick="vib()"> Touch Me! </button>
+
+
+    <script>
+
+            function vib() {
+                     navigator.vibrate([100,200,100,200,100,200,100,200,100,100,100,100,100,200,100,200,100,200,100,200,100,100,100,100,100,200,100,200,100,200,100,200,100,100,100,100,100,100,100,100,100,100,50,50,100,800]);
+        }
     </script>
 </body>
+</html>
